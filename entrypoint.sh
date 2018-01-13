@@ -1,5 +1,5 @@
 #!/bin/sh
-#VERSION:0.1.0
+#VERSION:0.1.1
 CFG=/docker-manager.cfg
 CFG_TMP="/tmp/.docker-manager.cfg"
 URL_CT="http:/docker/containers"
@@ -40,7 +40,7 @@ function docker_manager_monitor_start {
 }
 
 if [ ! -e ${DOCKER_SOCK} ]; then
- echo "$(data) Docker Sock: [${DOCKER_SOCK}] not found!!!"
+ echo "$(data) Docker Sock: [${DOCKER_SOCK}] not found. Try docker run -d -v /var/run/docker.sock:/var/run/docker.sock riav/docker-manager"
 else
  if [ "$1" = "--docker-manager-monitor" ]; then
   if [ "$2" = "" ]; then
