@@ -34,5 +34,5 @@ Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav
     For a correct syntax, first declare the network (--net) and then the IP address (--ip), if you want to specify.
 
 # Example:
-    #Teste-01
-    --name teste-01 -v /root.txt:/root.txt -e FOO=bar --net lan --ip 192.168.1.100 --net net-swarm centos:6 sleep infinity
+    #Test-01
+    --name test-01 -v /root.txt:/root.txt -e FOO=bar --net lan --ip 192.168.1.100 --net net-swarm centos:6 sleep infinity
