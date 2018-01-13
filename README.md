@@ -1,4 +1,4 @@
-# Docker-Manager Version: 0.1.0
+# Docker-Manager Version: v0.1.0
 
 Docker image that manages other dockers in stadalone mode (macvlan).\
 It is created as a service in swarm and runs and controls N dockers configured in docker-manager.cfg in standalone mode.\
