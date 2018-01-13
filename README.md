@@ -1,9 +1,7 @@
-# Docker-Manager
+# Docker-Manager Version: 0.1.0
 
 Docker image that manages other dockers in stadalone mode (macvlan).\
-Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav/docker-manager/)
-
-# Version: 0.1.0
+Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav/docker-manager/) 
 
 ## Usage
   docker service create --name manager_xpto --replicas 1 \ \
