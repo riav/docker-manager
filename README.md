@@ -33,6 +33,8 @@ Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav
 
     For a correct syntax, first declare the network (--net) and then the IP address (--ip), if you want to specify.
 
+**Line break in docker-manager.cfg file not supported yet**
+
 # Example:
     #Test-01
     --name test-01 -v /root.txt:/root.txt -e FOO=bar --net lan --ip 192.168.1.100 --net net-swarm centos:6 sleep infinity
