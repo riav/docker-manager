@@ -17,7 +17,7 @@ Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav
                         --mount type=bind,source=/var/run/docker.sock,destination=/var/run/docker.sock \
                         --mount type=bind,source=/docker-manager.cfg,destination=/docker-manager.cfg \
                         --restart-condition any riav/docker-manager
-## For tests
+## For testing and development with docker api
     docker run -d -v /var/run/docker.sock:/var/run/docker.sock riav/docker-manager --mode-run
 ### docker-manager.cfg
     Supports comment with #
