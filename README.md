@@ -1,4 +1,4 @@
-# Docker-Manager Version: [v0.1.0](https://github.com/riav/docker-manager/blob/master/CHANGELOG.md#v010-2018-01-12)
+# Docker-Manager Version: [v0.1.1](https://github.com/riav/docker-manager/blob/master/CHANGELOG.md#v011-2018-01-14)
 
 Docker image that manages other dockers in stadalone mode.\
 It is created as a service in swarm and runs and controls N dockers configured in docker-manager.cfg in standalone mode.
@@ -35,6 +35,9 @@ Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav
 
     Assigns an IP address to the docker container belonging to a previously declared network.
     --ip 192.168.200.100
+    
+    Assigns an IPV6 address to the docker container belonging to a previously declared network.
+    --ip6 2001:db8:babe:cafe::4
 
     For a correct syntax, first declare the network (--net) and then the IP address (--ip), if you want to specify.
 
