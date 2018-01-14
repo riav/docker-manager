@@ -7,6 +7,8 @@ So if the docker host drops or the service migrates for some reason, dockers man
 
 Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav/docker-manager/)
 
+# [Changelog](https://github.com/riav/docker-manager/blob/master/CHANGELOG.md)
+
 # How it does this:
 
 [Wiki - How it does this](https://github.com/riav/docker-manager/wiki#how-it-does-this)
