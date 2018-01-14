@@ -2,7 +2,6 @@
 
 Docker image that manages other dockers in stadalone mode.\
 It is created as a service in swarm and runs and controls N dockers configured in docker-manager.cfg in standalone mode.
-
 So if the docker host drops or the service migrates for some reason, dockers managed by docker-manager are disconnected and started on the new host that the service is instantiated.
 
 Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav/docker-manager/)
