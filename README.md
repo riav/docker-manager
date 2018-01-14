@@ -16,6 +16,9 @@ Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav
                         --mount type=bind,source=/docker-manager.cfg,destination=/docker-manager.cfg \ \
                         --restart-condition any riav/docker-manager
 ### docker-manager.cfg
+    Supports comment with #
+    # Docker apache with ip...
+    
     Name of docker (docker ps).
     --name xpto
     
