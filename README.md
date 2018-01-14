@@ -13,7 +13,7 @@ Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav
 [Wiki - How it does this](https://github.com/riav/docker-manager/wiki#how-it-does-this)
 
 ## Usage
-    docker service create --name manager_xpto --replicas 1 \
+    docker service create --name test-01 --replicas 1 \
                         --mount type=bind,source=/var/run/docker.sock,destination=/var/run/docker.sock \
                         --mount type=bind,source=/docker-manager.cfg,destination=/docker-manager.cfg \
                         --restart-condition any riav/docker-manager
@@ -22,7 +22,7 @@ Available from docker hub as [riav/docker-manager](https://hub.docker.com/r/riav
     # Docker apache with ip...
     
     Name of docker (docker ps).
-    --name xpto
+    --name test-01
     
     Mounts volumes in docker conatiner.
     -v|--volume /root.txt:/root.txt
