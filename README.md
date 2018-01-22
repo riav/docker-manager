@@ -1,4 +1,4 @@
-# Docker-Manager Version: [v0.1.1](https://github.com/riav/docker-manager/blob/master/CHANGELOG.md#v011-2018-01-14)
+# Docker-Manager Version: [v0.2.0](https://github.com/riav/docker-manager/blob/master/CHANGELOG.md#v020-2018-01-21)
 
 Docker image that manages other dockers in stadalone mode.
 
